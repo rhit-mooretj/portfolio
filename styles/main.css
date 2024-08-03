@@ -15,3 +15,48 @@
     font-weight: 400;
     font-style: normal;
 }
+.navbar-dark {
+    --bs-navbar-color: rgba(255, 255, 255, 0.75);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #2f353a;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
