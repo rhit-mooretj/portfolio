@@ -29,18 +29,11 @@ a {
     color: #000;
 }
 
-a:hover {
-    color: #2f353a;
-    font-weight: bold;
-}
-
 footer {
     text-align: center;
-    font-size: x-small;
-    position: fixed;
+    font-size: small;
     bottom: 0;
-    left: 40%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .pt-serif-regular {
