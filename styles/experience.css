@@ -1,0 +1,21 @@
+body {
+    /* text-align: center; */
+    font-family: century-gothic, sans-serif;
+    font-style: normal;
+    /* margin: 0;
+    padding-left: 100px;
+    padding-right: 100px; */
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+#roseLogoParent {
+    height: 100%;
+    /* Ensures the column fills the height of its parent */
+}
