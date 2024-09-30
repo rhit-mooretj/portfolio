@@ -8,10 +8,14 @@
         padding-right: 100px;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 #professional {
     padding-top: 5%;
 }
 
 #personal {
-    padding-top: 3%;
+    padding-top: 3.5%;
 }
