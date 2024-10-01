@@ -19,3 +19,10 @@
 #personal {
     padding-top: 3.5%;
 }
+
+@media (max-width: 768px) {
+    .main-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
