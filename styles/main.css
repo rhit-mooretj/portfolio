@@ -18,3 +18,29 @@
         padding-right: 50px;
     }
 }
+
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#mainContent>h1 {
+    animation: fadeDown 1s ease forwards;
+}
+
+#mainContent>h4 {
+    opacity: 0;
+    animation: fadeDown 1s ease forwards 1s;
+}
+
+#mainContent>h6 {
+    opacity: 0;
+    animation: fadeDown 1s ease forwards 3s;
+}
