@@ -1,10 +1,6 @@
 body {
-    /* text-align: center; */
     font-family: century-gothic, sans-serif;
     font-style: normal;
-    /* margin: 0;
-    padding-left: 100px;
-    padding-right: 100px; */
 }
 
 h2 {
@@ -13,9 +9,16 @@ h2 {
 
 .row {
     --bs-gutter-x: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #roseLogoParent {
     height: 100%;
-    /* Ensures the column fills the height of its parent */
+}
+
+@media (max-width: 768px) {
+    .needs-adjustment {
+        margin-top: 20px;
+    }
 }

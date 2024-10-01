@@ -3,8 +3,16 @@
     font-family: century-gothic, sans-serif;
     font-style: normal;
     margin: 0;
+    position: absolute;
+    top: 33%;
     padding-left: 100px;
     padding-right: 100px;
-    align-items: center;
-    height: 100%;
+} 
+
+@media (max-width: 576px) {
+    #mainContent {
+        position: relative;
+        top: 0%;
+        padding-top: 50px;
+    }
 }
